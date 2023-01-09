@@ -9,7 +9,6 @@ import sc_cover from '../media/images/sc-cover.png';
 import jsp_cover from '../media/images/jsp-cover.png';
 import sac_cover from '../media/images/sac-cover.png';
 import ArtifactInfo from './ArtifactInfo';
-import { CSSTransition } from 'react-transition-group';
 import "../styling/ArtifactSection.scss"
 
 class ArtifactSection extends React.Component {
@@ -113,10 +112,6 @@ class ArtifactSection extends React.Component {
             //shift={shift}
             />
         );
-
-        const backgroundImage = {
-            backgroundImage: 'url("' + (this.state.artifactSelected != null ? this.state.artifactData[this.state.artifactSelected].backgroundImageLink : '') + '")'
-        };
 
         return (
             <div className="ArtifactSection">
