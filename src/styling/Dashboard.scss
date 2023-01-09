@@ -1,0 +1,58 @@
+.Dashboard {
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    animation: fade-in 500ms;
+
+    @keyframes fade-in {
+        from { opacity: 0 }
+        to { opacity: 1}
+    }
+
+    .background {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+        .background-image {
+            object-fit: cover;
+        }
+
+        .dark-layer {
+            background-color: black;
+            opacity: 0.75;
+        }
+
+        .background-image, .dark-layer {
+            position: inherit;
+            width: inherit;
+            height: inherit;
+        }
+    }
+
+    .background-enter {
+        opacity: 0;
+    } 
+
+    .background-enter-active {
+        opacity: 1;
+        transition: opacity 200ms;
+    } 
+
+    .background-enter-done {
+        opacity: 1;
+    } 
+
+    .background-exit {
+        opacity: 1;
+    } 
+
+    .background-exit-active {
+        opacity: 0;
+        transition: opacity 200ms;
+    } 
+
+    .background-exit-done {
+        opacity: 0;
+    } 
+}

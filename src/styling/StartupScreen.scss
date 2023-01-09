@@ -1,0 +1,39 @@
+.StartupScreen {
+    margin: 0;
+    min-height: 100vh;
+
+    .logo {
+        width: 8vh;
+        animation-name: pulse;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-out;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        transition: width 0.25s ease-out;
+    
+        &:hover {
+            width: 9vh;
+            cursor: pointer;
+        }
+    }
+    
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    @keyframes pulse {
+        from { filter: none; }
+        to { filter: drop-shadow(0px 0px 4px #FFFFFF); }
+    }
+    
+    .instruction {
+        color: white;
+        font-family: 'Catamaran', sans-serif;
+        font-size: 2.5vh;
+        text-align: center;
+        padding-top: 25vh;
+    }
+}

@@ -1,0 +1,36 @@
+.HeaderBar {
+    height: 12.5vh;
+    display: flex;
+    padding: 0 4.5vw;
+    align-items: center;
+    justify-content: space-between;
+
+    .container {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        gap: 1vw;
+    }
+
+    .logo {
+        height: 25%;
+        opacity: 0.85;
+    }
+    
+    .user {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        gap: 0.5vw;
+        color: white;
+    
+        .username {
+            font-size: 1.5vh;
+            font-weight: 400;
+        }
+    }
+
+    .avatar-container {
+        height: 40%;
+    }
+}

@@ -1,0 +1,17 @@
+.Artifact {
+    .innerArtifact {
+        background-color: white;
+        min-width: 25vh;
+        height: 25vh;
+        border-radius: 1vw;
+        transition: all 200ms;
+        background-size: cover;
+
+        &:hover {
+            min-width: 30vh;
+            height: 30vh;
+            //outline: 5px solid rgb(255, 255, 255, 0.5);
+            box-shadow: 0 0 15px white;
+        }
+    }
+}
