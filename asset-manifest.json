@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.87cb8eda.css",
-    "main.js": "/portfolio-website/static/js/main.69f7244f.js",
-    "static/media/td-bg.png": "/portfolio-website/static/media/td-bg.12a7c510bc57140f4f7e.png",
-    "static/media/sc-cover.png": "/portfolio-website/static/media/sc-cover.f864c6bf53978b08c911.png",
-    "static/media/td-cover.png": "/portfolio-website/static/media/td-cover.d24599784c41d1435698.png",
-    "static/media/jw-cover.png": "/portfolio-website/static/media/jw-cover.1db79c77c2bab289367b.png",
-    "static/media/sac-cover.png": "/portfolio-website/static/media/sac-cover.0ace2d5170e036a4c21f.png",
-    "static/media/headshot.JPG": "/portfolio-website/static/media/headshot.5b5412d2ccebcaba749c.JPG",
-    "static/media/cw-cover.png": "/portfolio-website/static/media/cw-cover.9f51ba009f0bf698f0cd.png",
-    "static/media/jsp-cover.png": "/portfolio-website/static/media/jsp-cover.f9bd111988bcd71907e2.png",
-    "static/media/caseware-bg.jpeg": "/portfolio-website/static/media/caseware-bg.3003a077487eaa2ca0b1.jpeg",
-    "static/media/logo_white.png": "/portfolio-website/static/media/logo_white.d6035607d6666aa71569.png",
-    "index.html": "/portfolio-website/index.html",
-    "main.87cb8eda.css.map": "/portfolio-website/static/css/main.87cb8eda.css.map",
-    "main.69f7244f.js.map": "/portfolio-website/static/js/main.69f7244f.js.map"
+    "main.css": "/static/css/main.87cb8eda.css",
+    "main.js": "/static/js/main.cdf79ffc.js",
+    "static/media/td-bg.png": "/static/media/td-bg.12a7c510bc57140f4f7e.png",
+    "static/media/sc-cover.png": "/static/media/sc-cover.f864c6bf53978b08c911.png",
+    "static/media/td-cover.png": "/static/media/td-cover.d24599784c41d1435698.png",
+    "static/media/jw-cover.png": "/static/media/jw-cover.1db79c77c2bab289367b.png",
+    "static/media/sac-cover.png": "/static/media/sac-cover.0ace2d5170e036a4c21f.png",
+    "static/media/headshot.JPG": "/static/media/headshot.5b5412d2ccebcaba749c.JPG",
+    "static/media/cw-cover.png": "/static/media/cw-cover.9f51ba009f0bf698f0cd.png",
+    "static/media/jsp-cover.png": "/static/media/jsp-cover.f9bd111988bcd71907e2.png",
+    "static/media/caseware-bg.jpeg": "/static/media/caseware-bg.3003a077487eaa2ca0b1.jpeg",
+    "static/media/logo_white.png": "/static/media/logo_white.d6035607d6666aa71569.png",
+    "index.html": "/index.html",
+    "main.87cb8eda.css.map": "/static/css/main.87cb8eda.css.map",
+    "main.cdf79ffc.js.map": "/static/js/main.cdf79ffc.js.map"
   },
   "entrypoints": [
     "static/css/main.87cb8eda.css",
-    "static/js/main.69f7244f.js"
+    "static/js/main.cdf79ffc.js"
   ]
 }
