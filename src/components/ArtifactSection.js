@@ -47,7 +47,7 @@ class ArtifactSection extends React.Component {
                     skills: ['React'],
                     coverImageLink: jw_cover,
                     selected: false,
-                    redirectTo: "https://github.com/jaedonw"
+                    redirectTo: "https://github.com/jaedonw/portfolio-website"
                 },
                 {
                     title: "SPORTCRED",

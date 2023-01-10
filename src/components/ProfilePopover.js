@@ -26,7 +26,7 @@ function ProfilePopover(props) {
         {
             icon: faFile,
             desc: "My Resume",
-            redirectTo: "https://docs.google.com/document/d/1KNo6cEsklNRffzV45AUEQcAS-TJKRH3H8PVrrvIYXSc/edit?usp=share_link"
+            redirectTo: "https://drive.google.com/file/d/1b1-GOzE-medPjpx5Au2qkgtuA3k-PaH9/view?usp=share_link"
         }
     ];
 
